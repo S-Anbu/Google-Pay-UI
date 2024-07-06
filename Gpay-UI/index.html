@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google Pay</title>
   </head>
-  <body class="bg-gray-600 max-w-md mx-auto">
+  <body class="bg-gray-600 max-w-md mx-auto  ">
     <div class="flex space-x-4  p-3  bg-neutral-900"> 
       <div class="relative flex-1 text-white">
         <svg class="absolute top-2 left-2.5" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14" color=""/></svg>
@@ -17,10 +18,10 @@
         <img class="w-8 rounded-full" src="./assets/img/ANBU.png" alt="anbarasan subramani">
       </div>
     </div>
-    <div>
-      <img class="w-full" src="./public/img/banner.png" alt="gpay home">
-    </div>
-    <section class="bg-neutral-900 ">
+    <section class="bg-neutral-900 scrollbar-thin scrollbar-thumb-violet-200 scrollbar-track-slate-500">
+      <div>
+        <img class="w-full" src="./img/banner.png" alt="gpay home">
+      </div>
       <div class="text-white text-center grid grid-cols-4 gap-5 px-10 py-8">
         <div class="flex flex-col justify-center items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M3 7.039V3h4.039v1H4v3.039zM3 21v-4.038h1V20h3.039v1zm13.962 0v-1H20v-3.038h1V21zM20 7.039V4h-3.038V3H21v4.039zm-3.058 9.903h1.212v1.212h-1.212zm0-2.423h1.212v1.212h-1.212zm-1.211 1.212h1.211v1.211h-1.211zm-1.212 1.211h1.212v1.212h-1.212zm-1.211-1.211h1.211v1.211h-1.211zm2.423-2.423h1.211v1.211h-1.211zm-1.212 1.211h1.212v1.212h-1.212zm-1.211-1.211h1.211v1.211h-1.211zm4.846-7.462v4.846h-4.846V5.846zm-7.462 7.462v4.846H5.846v-4.846zm0-7.462v4.846H5.846V5.846zM9.808 17.27v-3.077H6.73v3.077zm0-7.461V6.73H6.73v3.077zm7.461 0V6.73h-3.077v3.077z"/></svg>
@@ -104,12 +105,13 @@
               <span>vicky</span>
             </div>
           </div>
-          <div>
-            <div class="flex flex-col justify-center items-center">
-              <img src="https://ui-avatars.com/api/?name=bala&background=random&rounded=true" alt="">
-              <span>bala</span>
+          <button>
+            <div class="flex flex-col justify-center items-center fill-current   text-[#3c6fd4]">
+              <div class="border border-zinc-400 rounded-full p-3 hover:p-3.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="m17.5 8.086l-5.5 5.5l-5.5-5.5L5.086 9.5L12 16.414L18.914 9.5z"/></svg>
+              </div>
             </div>
-          </div>
+          </button>
         </div>
       </section>
     </section>
